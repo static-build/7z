@@ -22,8 +22,8 @@ if [ ! -f bin/7za.linux.x86 ]; then
     cp  tmp/7z.linux.x86/p7zip_16.02/bin/7za     bin/7za.linux.x86
     7z  bin/7za.linux.x86.7z                     bin/7za.linux.x86
 
-    cp  tmp/7z.linux.x86/p7zip_16.02/bin/7zr     bin/7zr.linux.x86
+    cp  tmp/7z.linux.x86/p7zip_16.02/bin/7zd     bin/7zd.linux.x86
     # TODO: 
-    upx bin/7zr.linux.x86
+    upx bin/7zd.linux.x86
 
 fi
